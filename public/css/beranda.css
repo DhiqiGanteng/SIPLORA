@@ -1,0 +1,390 @@
+/* Desktop Version */
+@media (min-width: 992px) {
+    /* Navabar style */
+    .nav-link:hover::after{
+      content: '';
+      display: block;
+      border-bottom: 1px solid #000000;
+      width: 40%;
+      margin: auto;
+      padding-bottom: 2px;
+      margin-bottom: -3px;
+    }
+
+    .lacak p{
+      margin-bottom: 0 !important;
+    }
+
+    .lapor h3{
+      text-align: none !important;
+      margin-top: 0 !important;
+    }
+
+    /* jumbotron */
+
+    .bgJumbotron h1 {
+      padding-top: 250px !important;
+      font-size: 40px !important;
+      font-weight: lighter;
+    }
+
+    .bgJumbotron span{
+      color: white;
+      font-style: normal;
+      font-weight: 500;
+    }
+
+    .bgJumbotron h1 , p{
+      margin: auto;
+      width: 95% !important;
+      color: white;
+    }
+
+    .bgJumbotron p{
+      font-style: italic;
+      font-size: 17px !important;
+    }
+
+    /* Pelaporan $ Pelacakan */
+    .lapor .col-sm-6 h1{
+      margin-top: 10%
+    }
+    .lacak .col-sm-6 h1{
+      margin-top: 10%
+    }
+
+    .statistik{
+      margin-top: 0 !important;
+    }
+
+.laporBtn{
+  margin-top: 20px !important;
+  background-color: #000000;
+  margin-left: 0 !important;
+  padding-left: 45px !important;
+  padding-right: 45px !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  color: white;
+  font-size: 16px !important;
+}
+
+.lapor{
+  padding-top: 70px !important;
+min-height: 100%;
+}
+.lacak{
+  min-height: 100%;
+  padding-top: 70px;
+}
+.statistik{
+  padding-top: 50px !important;
+}
+
+.lapor p{
+  margin-bottom: 0 !important;
+}
+
+.aboutsUs3 .col-sm-4{
+  margin-bottom: 0 !important;
+}
+.dendyy{
+  margin-top: 0 !important;
+}
+.sulu{
+  margin-top: 0 !important;
+}
+
+
+/* Tim Kami */
+
+}
+
+body{
+  overflow-x: hidden;
+}
+/* ---------------------------------------------------
+    Navbar STYLE
+----------------------------------------------------- */
+
+.alertHome{
+  border-radius: 3px;
+  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.3), 0 5px 23px 0 rgba(0, 0, 0, 0.4);
+  /* padding-left: 50px;
+  padding-right: 40px; */
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 15%;
+  background-color: white;
+  min-width: 400.1px;
+  text-shadow: none;
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+}
+
+/* ---------------------------------------------------
+    Jumbotron STYLE
+----------------------------------------------------- */
+.bgJumbotron{
+  background-image: url(../image/29.jpg);
+  background-size: cover;
+  background-position: 0 0;
+  /* min-height: 100vh; */
+  height: 100vh;
+  width: 100vw;
+  /* background-attachment: fixed; */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  position: relative;
+}
+.beranda h1{
+  font-size: 30px;
+  padding-top: 200px;
+  font-weight: lighter;
+}
+.bgJumbotron h1, p{
+  margin: auto;
+  width: 90%;
+  color: white;
+}
+.bgJumbotron h1 span{
+  color: white;
+  font-weight: 500;
+  font-style: normal;
+}
+.bgJumbotron p{
+  font-style: italic;
+  padding-top: 5px;
+}
+
+.overlayJumbotron{
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+/* ---------------------------------------------------
+    Pelaporan dan Pelacakan STYLE
+----------------------------------------------------- */
+.text-right{
+  margin-right: 10px;
+  color: black;
+}
+.text-center{
+  color: black;
+}
+.gambar1{
+  max-width: 100%;
+}
+.lacakLapor{
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.25);
+}
+
+.lapor{
+  padding-bottom: 30px;
+  /* border: 1px solid black; */
+  padding-top: 5%;
+}
+.lapor h3{
+  text-align: center;
+  margin-top: 20px;
+}
+.lacak h3{
+  text-align: center;
+}
+.lacak p{
+  margin-bottom: 20px;
+}
+.lapor p{
+  margin-bottom: 20px;
+}
+.lacak{
+  padding-bottom: 30px;
+  /* border: 1px solid black; */
+}
+.lacak .lacakLapor{
+  margin-top: 30px;
+}
+.laporBtn{
+  margin-left: 25%;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color:#000000;
+  color: white;
+}
+
+.aboutsUs3 .col-sm-4{
+  /* margin-bottom: 10px; */
+}
+
+
+.statistik{
+  margin-top: 20px;
+}
+
+.laporBtn:hover{
+  background-color: #313335;
+  color: white;
+  text-decoration: none;
+}
+
+/* ---------------------------------------------------
+    Bagian Statistik STYLE
+----------------------------------------------------- */
+.statistik{
+  min-height: 600px;
+}
+/* ---------------------------------------------------
+    Tentang Kami STYLE
+----------------------------------------------------- */
+.aboutUs{
+  background-image: url(../image/5.png);
+  background-size: cover;
+  background-position: 0 0;
+  background-attachment: fixed;
+  min-height: 150px;
+}
+.artha{transform: rotate(90deg);}
+
+.tenntangkami{
+  background-image: url(../image/12.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 140px;
+  position: relative;
+}
+
+.tenntangkami h2{
+  margin-top: 15px;
+  font-weight: bold;
+  color: white;
+}
+.tenntangkami p{
+  font-size: 23px;
+  color: white;
+}
+.overlay{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.aboutUs2{
+  background-color: white;
+  min-height: 130px;
+
+}
+.aboutUs2 p{
+    color: black;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.aboutUs2P{margin-top: 20px;}
+
+.aboutsUs3{min-height: auto;}
+
+.aboutsUs3{
+  background-color: #EEF2F5;
+}
+
+.ff{
+  margin-top: 3%;
+  color: #4D5667;
+}
+
+.aboutsUs3 .col-sm-12 p{
+color: #888f9b;
+}
+.aboutsUs3 .container{
+  margin-top: 2%;
+  padding-bottom: 3%;
+}
+.aboutsUs3 .container h6{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.ee{
+  margin-top: 20px;
+  background-color:white;
+  min-height: auto;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.col-sm-3{
+  padding: 30px;
+  margin-left: 30px;
+}
+
+.col-sm-3 p{
+  color: black;
+}
+.aboutsUs3 .container p{
+  margin-top: -8px;
+  margin-left: 0;
+  font-style: italic;
+}
+.aboutsUs3 .container .kolomBawah{
+  margin-top: 30px;
+}
+.aboutsUs3 .col-sm-4{
+  margin-bottom: 13px;
+}
+
+
+.quote{
+  font-style: italic;
+}
+.aboutsUs3 .img-fluid{
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 19px 0 rgba(0, 0, 0, 0.100);
+}
+
+.col-sm-4{
+  opacity: 0;
+  transform: translateY(0px);
+  transition: all .5s ease-in-out;
+}
+.col-sm-4.showing{
+  opacity: 1;
+}
+.fab{
+  margin-right: 5px;
+}
+.aboutsUs3 .container h6{
+  padding-top: 5px;
+  font-size: 20px;
+}
+.aboutsUs3 .container a{
+  text-decoration: none;
+  color: #888F9B;
+}
+.aboutsUs3 .container a:hover{
+  text-decoration: none;
+  color: #51586b;
+}
+.dendyy{
+  margin-top: 20px;
+}
+.sulu{
+  margin-top: 20px;
+}
+/* ---------------------------------------------------
+    Footer STYLE
+----------------------------------------------------- */
+footer p{
+  color: black;
+}
+footer{
+  padding: 20px;
+}
+span{
+  color: #DC3545;
+  font-style: italic;
+}

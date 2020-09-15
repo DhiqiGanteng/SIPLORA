@@ -1,0 +1,90 @@
+.jumbotron{
+  background-image: url(../image/15.jpg);
+  background-size: cover;
+  height: 400px;
+  background-attachment: fixed;
+  background-position: 0 0;
+}
+.col-sm-10{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.fa-lg{
+  padding-right: 5px;
+}
+
+/* bagian dropdown profil */
+.dropdown{
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+}
+
+.dropdown__hover{
+  display: inline-block;
+  background : none;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+
+.dropdown__hover:hover{
+  color: black;
+}
+
+.dropdown__menu{
+  position: absolute;
+  display: none;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  min-width: 150px;
+  color: grey;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.dropdown:hover .dropdown__menu{
+  display: block;
+}
+
+.dropdown__menu a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  /* border-top: 1px solid #e0e0e0; */
+}
+
+.dropdown__menu a:hover{
+  background-color: #DC3545;
+  color: white;
+}
+
+h1{
+  font-style: italic;
+}
+.editRow{
+  line-height: 10px;
+}
+
+/* dropdown border  */
+.atas:hover{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.bawah:hover{
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}

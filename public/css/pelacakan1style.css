@@ -1,0 +1,62 @@
+@media (min-width: 992px) {
+  .col-10{
+    margin-top: 20px !important;
+  }
+  hr{
+    display: none
+  }
+
+  .modal-content h5{
+    margin-left: 35% !important;
+  }
+}
+hr{
+  margin-top: 20px;
+
+}
+i.fas{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.col-10{
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 40px;
+  height: auto;
+  margin-top: 40px;
+}
+h2{
+  padding: 30px;
+}
+h6{
+  padding-bottom: 10px;
+}
+
+.jumbotron{
+  margin-bottom: 0;
+  background-image: url(../image/12.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+}
+body{
+  overflow-x: hidden;
+}
+.garis{
+  border-right: 1px solid #bdc3c7;
+}
+
+.modal-content{
+  border: 0 !important;
+
+}
+.modal-content h5{
+  margin-left: 30%;
+}
+.modalBtn{
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 3px;
+}

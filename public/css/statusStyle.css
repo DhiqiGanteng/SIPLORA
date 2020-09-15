@@ -1,0 +1,41 @@
+body,html{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.bg{
+  height: 130vh;
+  width: 100%;
+  background-image: url(../image/24.jpg);
+  background-size: cover;
+  background-position: 0 0;
+  position: absolute;
+  margin-bottom: 0;
+}
+
+.overlay{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btnKembali{
+  margin-bottom: 25px;
+}
+
+.col-10{
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2{
+  padding: 10px;
+}

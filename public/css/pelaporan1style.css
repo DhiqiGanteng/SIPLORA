@@ -1,0 +1,26 @@
+@media (min-width: 992px) {
+  .col-10{
+    margin-top: 20px !important;
+  }
+}
+.jumbotron{
+  margin-bottom: 0;
+}
+
+.col-10{
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 50px;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.btn-danger{
+  margin: 20px;
+  float: right;
+  padding-left: 50px;
+  padding-right: 50px;
+}
